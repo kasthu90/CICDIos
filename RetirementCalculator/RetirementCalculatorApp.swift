@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @main
 struct RetirementCalculatorApp: App {
