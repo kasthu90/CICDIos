@@ -18,14 +18,9 @@ class RetirementCalculatorApp:  NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
         AppCenter.start(withAppSecret: "72b67fa0-f69f-4a7e-9daa-7ccffe5c5099", services: [Analytics.self, Crashes.self])
         
-        
-            //Crashes.generateTestCrash()
-       
-        return true
-       
-     
-       
            
+        return true
+        //Crashes.generateTestCrash()
     }
 }
 
