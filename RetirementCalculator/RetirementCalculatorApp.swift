@@ -12,7 +12,7 @@ import AppCenterAnalytics
 
 
 
-@main
+
 class RetirementCalculatorAppp:  NSObject, UIApplicationDelegate{
     
     var window: UIWindow?
@@ -23,7 +23,7 @@ class RetirementCalculatorAppp:  NSObject, UIApplicationDelegate{
         return true/// test oner sjgfsijgsjdgj
     }
 }
-
+@main
     struct RetirementCalculatorApp: App {
         @UIApplicationDelegateAdaptor(RetirementCalculatorAppp.self) var delegate
         var body: some Scene {
